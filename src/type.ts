@@ -11,3 +11,11 @@ let price: number = 599.99;
 // boolean
 let isLoggedIn: boolean = true;
 let isAdmin: boolean = false;
+
+// Null
+let selectedUser: null = null;
+
+// Undefined
+let username: string | undefined;
+
+console.log(username);
