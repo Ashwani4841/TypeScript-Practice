@@ -19,3 +19,15 @@ let selectedUser: null = null;
 let username: string | undefined;
 
 console.log(username);
+
+// Any===any basically tells TypeScript:Don't check this value.
+
+let data: any = "Ashwani";
+
+data = 100;
+data = true;
+data = [];
+data = {};
+
+// Unknown
+let data: unknown = "Ashwani";
