@@ -141,3 +141,26 @@ function printLength(value: number | string){
 }
 
 // printLength(10)
+
+function checkValue(value: string | number | boolean){
+  if(typeof value === "string"){
+    console.log("This is string")
+  }else if(typeof value === "number"){
+    console.log("This is number")
+  } else{
+    console.log("This is boolean value")
+}
+}
+// checkValue("Ashwani")
+// checkValue(30)
+// checkValue(true)
+
+function loginUser(userId: string | number){
+  if(typeof userId === "string"){
+    console.log(`logging in with email: ${userId}`)
+  }else{
+    console.log(`logging with userId: ${userId}`)
+  }
+}
+loginUser("ashwani@gmail.com")
+loginUser(234)
