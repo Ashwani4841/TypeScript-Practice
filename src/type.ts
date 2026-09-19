@@ -29,5 +29,10 @@ data = true;
 data = [];
 data = {};
 
-// Unknown
-let data: unknown = "Ashwani";
+// Unknown====unknown is safer than any.It means:"I don't know what type this value is yet."
+
+
+let data2: unknown = "Ashwani";
+if(typeof data2 === "string"){
+    console.log(`Welcome ${data2}`)
+}
