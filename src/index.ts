@@ -72,3 +72,29 @@ const allProduct:Product[]=[
   }
 ]
 // console.log(allProduct)
+
+ype User ={
+  name:string;
+  age:number;
+  location:[number,number]
+}
+const user1:User={
+  name:"Ashwani",
+  age:24,
+  location:[23.45, 43.45]
+}
+// console.log(user1)
+
+type newProduct={
+  name:string;
+  price:number;
+  categories:string[];
+  discount:number | string;
+}
+const finalProduct:newProduct={
+  name:"Electronics",
+  price:23000,
+  categories:["phones", "keyword"],
+  discount:"10%"
+}
+// console.log(finalProduct)
