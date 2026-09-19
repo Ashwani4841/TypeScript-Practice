@@ -35,3 +35,40 @@ const productCart: string[] =[
   "mobile"
 ] 
 // console.log(productCart)
+
+type Product1 ={
+  name:string;
+  price:number;
+  inStock:boolean;
+}
+
+const products:Product1 ={
+  name:"Books",
+  price:299,
+  inStock:true
+}
+// console.log(products)
+
+type Product = {
+  name:string;
+  price:number;
+  inStock:boolean
+}
+const allProduct:Product[]=[
+  {
+    name:"books",
+    price:299,
+    inStock:true
+  },
+  {
+    name:"Phones",
+    price:5999,
+    inStock:true
+  },
+  {
+    name:"Laptops",
+    price:45000,
+    inStock:false
+  }
+]
+// console.log(allProduct)
