@@ -98,3 +98,46 @@ const finalProduct:newProduct={
   discount:"10%"
 }
 // console.log(finalProduct)
+
+type User5={
+  name:string;
+  age:number;
+  skills:string[];
+  role: "user" | "admin"
+  coordinates:[number, number];
+}
+
+const newUser2:User5[]=[
+  {
+  name:"Ashwani",
+  age:24,
+  skills:["js","react","node"],
+  role:"admin",
+  coordinates:[23.34, 45.67],
+},
+{
+  name:"Radhav",
+  age:2,
+  skills:["data","playing"],
+  role:"user",
+  coordinates:[23.45, 54.45]
+},
+{
+  name:"Kundan",
+  age:22,
+  skills:["junle","travelling"],
+  role:"user",
+  coordinates:[32.34, 32.42],
+},
+]
+// console.log(newUser2)
+
+function printLength(value: number | string){
+  if(typeof value === "number"){
+    console.log(value*2)
+  }else{
+    console.log(value.length)
+  }
+}
+
+// printLength(10)
